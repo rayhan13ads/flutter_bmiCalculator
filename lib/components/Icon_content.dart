@@ -1,3 +1,4 @@
+import 'package:bmicalculator/themes/styles.dart';
 import 'package:flutter/material.dart';
 
   class IconContent extends StatelessWidget {
@@ -18,10 +19,7 @@ import 'package:flutter/material.dart';
           SizedBox(
             height: 15.0,
           ),
-          Text(title, style: TextStyle(
-              fontSize: 18.0,
-              color: Color(0xFF8D8E98)
-          ),)
+          Text(title, style: kNormalTextStyle(),)
 
         ],
       );
